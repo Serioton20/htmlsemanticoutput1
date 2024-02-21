@@ -1,0 +1,41 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+a{
+    list-style-type: none;
+    color: rgb(75, 12, 12);
+}
+li{
+    
+    display: inline;
+    margin: 10px;
+    color: rgb(255, 244, 248);
+  }
+
+  ul {
+       margin: 0;1
+        padding: 0;
+        font-size: x-large;  
+    }
+a:hover {
+          background-color: rgb(7, 0, 2);
+          }
+a:link {
+    color:rgb(255, 255, 255);
+  }
+  a:active {
+    color: blue;
+  }
+a[href="#top"]{
+    display: block;
+    text-align: right;
+    background-color: peru;
+    color: aliceblue;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+a[href="#top"]:active{
+    color: blue;
+}
